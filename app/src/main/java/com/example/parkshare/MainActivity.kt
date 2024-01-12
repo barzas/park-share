@@ -13,10 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val signinButton : Button = findViewById(R.id.SigninButton)
 
-        signinButton.setOnClickListener(::onSigninBottonClicked)
-
-        signinButton.setOnClickListener(::onSigninBottonClicked)
-    }
+        signinButton.setOnClickListener(::onSigninBottonClicked) }
 
     fun onSigninBottonClicked(view: View) {
         val intent = Intent(this, SigninActivity::class.java)
